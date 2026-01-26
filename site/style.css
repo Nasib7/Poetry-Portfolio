@@ -1,0 +1,27 @@
+   :root {
+    --bg: #f6f5e9;
+    --text-main: #1c1c1c;
+    --text-muted: #555;
+   }
+   body {
+        background: var(--bg);
+        color: var(--text-main);
+        font-family: "consolas", sans-serif;
+        line-height: 1.7;
+        text-align: center;
+    }
+    h1 {
+        font-family: "Monoton";
+        font-weight: normal;  /* stop browser from holding it */
+        font-size: 4rem;      /* dispay scale */
+        letter-spacing: 0.2em; /* lets the inner lines breathe*/
+        text-transform: uppercase; /* matches preview intent */
+        line-height: 1.2; /* tighter vertical rhythm */
+        text-align: center;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 2 rem 1.5rem;
+    }
