@@ -20,12 +20,18 @@ The goal is to document both learning and implementation in a structured, transp
 
 ### HTML
 - Basics, elements, attributes ✅
-- Semantic structure (in progress)
-- Forms and accessibility (in progress)
+- Page structure & semantic HTML ✅
+- Multi-page navigation (index, poems, about) ✅
+- Article-based content structure for poems ✅
+- Forms and accessibility (next)
 
 ### CSS
-- Fundamentals (planned)
-- Flexbox and layout (planned)
+- Fundamentals (applied)
+- Flexbox layout for header/navigation ✅
+- Typography styling with Google Fonts ✅
+- Layout control using max-width and margin auto ✅
+- Medium-style readable text layout (in progress)
+- Grid (next)
 
 ### JavaScript
 - DOM basics (planned)
