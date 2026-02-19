@@ -53,7 +53,7 @@
         margin: 0 auto;
         padding: 2 rem 1.5rem;
     }
-    .featured {
+    .posts {
         margin-top: 4rem;
     }
     .tagline {
@@ -61,18 +61,38 @@
         margin-top: 0.5rem;
         text-align: center;
     }
-    .poem {
+    .post-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .post-content {
+        flex: 1;
+    }
+    .post-content h2 {
         font-family: "Gideon Roman", serif; /* or body font */
         font-size: 1.15rem;
         line-height: 1;
         max-width: 650px;
         margin: 3rem auto;
     }
-    article {
-        max-width: 650px;
-        margin: 4rem auto;
+    .post-preview {
+       color: #555;
+       font-size: 1rem;
+       line-height: 0.5;
+       text-align: left;
     }
-article h3 {
-    text-align: left;
-}
-    
+    .post-meta {
+        font-size: 0.9rem;
+        margin-top: 0.8rem;
+        color: #777;
+    }
+    .post-image img {
+        width: 160px;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
