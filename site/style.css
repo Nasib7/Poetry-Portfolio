@@ -3,12 +3,40 @@
     --text-main: #1c1c1c;
     --text-muted: #555;
    }
+   .logo {
+    font-family: "Gideon Roman", sans-serif;
+    margin: 0;
+   
+   }
+    header {
+        display: flex;
+        align-items: center; /*vertical alignment*/
+        justify-content: space-between; /* pushes logo to left and nav to right */
+        padding: 1rem 2rem;
+    }
+   nav {
+        background: var(--bg);
+        padding: 1rem;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        text-decoration: none;
+        color: var(--text-main);
+        font-weight: bold;
+    }
+  
    body {
         background: var(--bg);
         color: var(--text-main);
         font-family: "consolas", sans-serif;
         line-height: 1.7;
-        text-align: center;
     }
     h1 {
         font-family: "Monoton";
@@ -25,3 +53,26 @@
         margin: 0 auto;
         padding: 2 rem 1.5rem;
     }
+    .featured {
+        margin-top: 4rem;
+    }
+    .tagline {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .poem {
+        font-family: "Gideon Roman", serif; /* or body font */
+        font-size: 1.15rem;
+        line-height: 1;
+        max-width: 650px;
+        margin: 3rem auto;
+    }
+    article {
+        max-width: 650px;
+        margin: 4rem auto;
+    }
+article h3 {
+    text-align: left;
+}
+    
